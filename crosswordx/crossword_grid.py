@@ -1,4 +1,4 @@
-from typing import Dict, Tuple
+from typing import Dict, Tuple, List
 from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 import os
@@ -119,7 +119,7 @@ class CrosswordGrid:
         self._directions = ["r", "d", "l", "u"]
         self._grid_size: Tuple[int, int] = self.get_grid_size()
         self._grid: Image = self.generate_initial_grid()
-        self._drawn_words = {"r": {}, "d": {}, "l": {}, "u": {}}  # Words that have been drawn
+        self._drawn_words = {"r": {}, "d": {}, "l": {}, "u": {}} # Words that have been drawn
 
     @property
     def grid_size(self) -> Tuple[int, int]:
@@ -264,11 +264,11 @@ class CrosswordGrid:
             self._grid.save(f, "PNG")
         f.close()
 
-    def get_bytes_image(self) -> File:
-        with BytesIO() as img:
-            self._grid.save(img, format="PNG")
-            img.seek(0)
-            return File(fp=img, filename="Crossword.png")
+    def get_bytes_image(self) -> BytesIO:
+        img = BytesIO()
+        self._grid.save(img, format="PNG")
+        img.seek(0)
+        return img
 
     def get_grid_size(self):
         max_row = 0
