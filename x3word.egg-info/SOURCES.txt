@@ -1,0 +1,10 @@
+setup.py
+x3word/__init__.py
+x3word/crossword_grid.py
+x3word/crossword_puzzle.py
+x3word/x3word.py
+x3word.egg-info/PKG-INFO
+x3word.egg-info/SOURCES.txt
+x3word.egg-info/dependency_links.txt
+x3word.egg-info/requires.txt
+x3word.egg-info/top_level.txt

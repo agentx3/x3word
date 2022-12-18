@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: x3word
+Version: 1.0
+Summary: Crossword package that supports drawing words and keeping track of solved words and solvers, as wellas 4-directional word search. Needs an external json file to store the words and their definitions.
+Home-page: https://github.com/jladan/package_demo
+Author: Agent X3
+Author-email: thepuzzlegang.agent@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
