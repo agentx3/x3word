@@ -3,8 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 import os
 
-FONT_PATH = os.path.join("x3word", "Ubuntu-Regular.ttf")
-
+FONT_PATH = os.path.join(os.path.dirname(__file__), "Ubuntu-Regular.ttf")
 
 class Word:
     def __init__(self, word: str, hint: str, direction: str, start_pos: Tuple[int, int], number: int = None) -> None:
