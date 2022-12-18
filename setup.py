@@ -4,7 +4,7 @@ if __name__ == "__main__":
     setup(
         # Needed to silence warnings (and to be a worthwhile package)
         name='x3word',
-        url='https://github.com/jladan/package_demo',
+        url='https://github.com/agentx3/x3word',
         author='Agent X3',
         author_email='thepuzzlegang.agent@gmail.com',
         # Needed to actually package something
