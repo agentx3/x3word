@@ -6,10 +6,6 @@ Home-page: https://github.com/jladan/package_demo
 Author: Agent X3
 Author-email: thepuzzlegang.agent@gmail.com
 License: MIT
-Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3.10
 Classifier: Topic :: Games/Entertainment :: Puzzle Games
 Classifier: Operating System :: OS Independent
-
-UNKNOWN
-
