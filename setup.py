@@ -18,8 +18,8 @@ setup(
                 'as 4-directional word search. Needs an external json file to store the words and their definitions.',
     # Classifiers allow your Package to be categorized based on functionality
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3.10",
+        "Topic :: Games/Entertainment :: Puzzle Games",
     ],
     # We will also need a readme eventually (there will be a warning)
     # long_description=open('README.txt').read(),
