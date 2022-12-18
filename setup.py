@@ -7,6 +7,7 @@ if __name__ == "__main__":
         url='https://github.com/jladan/package_demo',
         author='Agent X3',
         author_email='thepuzzlegang.agent@gmail.com',
+        py_modules=['x3word'],
         # Needed to actually package something
         packages=find_packages(),
         # Needed for dependencies
