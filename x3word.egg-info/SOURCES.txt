@@ -1,4 +1,5 @@
 setup.py
+x3word/Ubuntu-Regular.ttf
 x3word/__init__.py
 x3word/crossword_grid.py
 x3word/crossword_puzzle.py

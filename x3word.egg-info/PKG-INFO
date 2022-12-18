@@ -2,7 +2,7 @@ Metadata-Version: 2.1
 Name: x3word
 Version: 1.0
 Summary: Crossword package that supports drawing words and keeping track of solved words and solvers, as wellas 4-directional word search. Needs an external json file to store the words and their definitions.
-Home-page: https://github.com/jladan/package_demo
+Home-page: https://github.com/agentx3/x3word
 Author: Agent X3
 Author-email: thepuzzlegang.agent@gmail.com
 License: MIT

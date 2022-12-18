@@ -14,8 +14,6 @@ if __name__ == "__main__":
         install_requires=['Pillow'],
         # *strongly* suggested for sharing
         version='1.0',
-        # The license can be anything you like
-        license='MIT',
         description='Crossword package that supports drawing words and keeping track of solved words and solvers, as well'
                     'as 4-directional word search. Needs an external json file to store the words and their definitions.',
         # Classifiers allow your Package to be categorized based on functionality
