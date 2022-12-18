@@ -1,5 +1,5 @@
 from typing import List, Dict, Any
-from crosswordx.crossword_grid import CrosswordGrid, Word
+from x3word.crossword_grid import CrosswordGrid, Word
 import hashlib
 
 
