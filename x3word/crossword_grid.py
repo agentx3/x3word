@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 import os
 
-FONT_PATH = os.path.join("BotCogs", "Crossword", "Ubuntu-Regular.ttf")
+FONT_PATH = os.path.join("x3word", "Ubuntu-Regular.ttf")
 
 
 class Word:
