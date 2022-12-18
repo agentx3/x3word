@@ -9,7 +9,7 @@ if __name__ == "__main__":
         author_email='thepuzzlegang.agent@gmail.com',
         # Needed to actually package something
         packages=find_packages(),
-        data_files=[('x3word', ['x3word/Ubuntu-Regular.ttf'])],
+        package_data={'x3word': ['Ubuntu-Regular.ttf']},
         # Needed for dependencies
         install_requires=['Pillow'],
         # *strongly* suggested for sharing
